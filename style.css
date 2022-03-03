@@ -1,0 +1,204 @@
+/* =================================
+common css
+================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1164px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+}
+/* =================================
+header css
+================================= */
+.ms-header-main-part {
+  margin-top: 42px;
+  position: absolute;
+  width: 100%;
+}
+.ms-header-part {
+  display: flex;
+  align-items: center;
+}
+.ms-header-part .ms-right-button {
+  margin-left: auto;
+}
+.ms-header-part .navbar-nav li {
+  display: inline-block;
+}
+.ms-header-part .navbar-nav li a {
+  color: #fff;
+}
+.ms-header-part .navbar-nav li:not(:last-child) {
+  display: inline-block;
+  padding: 0 18px;
+}
+/* =================================
+banner css
+================================= */
+.ms-banner-main-part {
+  background-color: #2d25a0;
+  padding-top: 135px;
+  padding-bottom: 114px;
+}
+.ms-banner-part-main-content,
+.ms-highlights-part-main-content {
+  display: flex;
+  align-items: center;
+}
+.ms-banner-part-main-content .ms-banner-part-left-side {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.ms-banner-part-main-content .ms-banner-part-right-side {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.ms-banner-part-main-content .ms-banner-part-right-side img {
+  width: 100%;
+}
+.ms-banner-part-main-content .ms-banner-part-left-side h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+/* =================================
+ football player css
+================================= */
+.ms-football-player-main-heads {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.ms-football-player-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.ms-football-player-grid .ms-football-player-items {
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.ms-football-player-grid .ms-football-player-items .thumbnail img {
+  width: 100%;
+}
+.ms-football-player-grid .ms-football-player-items .ms-football-player-info h3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  padding-bottom: 10px;
+}
+.ms-football-player-grid .ms-football-player-items .ms-football-player-info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #6c6c6c;
+}
+
+/* =================================
+ highlights css
+================================= */
+.ms-highlights-main-part {
+  padding-top: 70px;
+  padding-bottom: 158px;
+}
+.ms-highlights-part-left-side,
+.ms-highlights-part-right-side {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.ms-highlights-part-left-side h2 {
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+  padding-bottom: 10px;
+  color: #0a0826;
+}
+.ms-highlights-part-left-side p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  color: #6c6c6c;
+  max-width: 404px;
+  padding-bottom: 24px;
+}
+.ms-highlights-part-right-side img {
+  width: 100%;
+}
+
+/* =================================
+ footer css
+================================= */
+
+.ms-footer-img {
+  text-align: center;
+}
+.ms-footer-img img {
+  max-width: 483px;
+}
+
+.ms-social-icon-nav {
+  padding-top: 20px;
+  display: flex;
+  grid-gap: 14px;
+  justify-content: center;
+}
+.ms-social-icon-nav li a {
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  background: #0b0d17;
+  opacity: 0.1;
+  display: inline-block;
+  border-radius: 50%;
+}
+.ms-social-icon-nav li a i {
+    color: #969BAB;
+    font-size: 17px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+}
