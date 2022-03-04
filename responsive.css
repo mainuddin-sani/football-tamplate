@@ -1,0 +1,111 @@
+/* Extra larged device */
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* larged device */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .ms-bars {
+    display: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+/* medium device */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .ms-bars {
+    display: block;
+  }
+  .navbar-nav {
+    display: none;
+  }
+
+  .ms-banner-part-main-content,
+  .ms-highlights-part-main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .ms-banner-part-main-content .ms-banner-part-left-side {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .ms-banner-part-main-content .ms-banner-part-right-side {
+    width: 100%;
+  }
+  .ms-football-player-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .ms-highlights-part-left-side h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .ms-banner-part-left-side {
+    text-align: center;
+  }
+  .ms-highlights-part-left-side {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+  .ms-football-player-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .ms-highlights-part-left-side {
+    margin-bottom: 30px;
+  }
+  .ms-highlights-part-left-side,
+  .ms-highlights-part-right-side {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .ms-highlights-part-left-side h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .ms-banner-part-main-content .ms-banner-part-left-side h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+/* small device */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+  }
+  .ms-footer-img img {
+    max-width: 250px;
+  }
+  .ms-banner-part-left-side {
+    text-align: left;
+  }
+  .ms-highlights-part-left-side {
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .ms-highlights-part-left-side h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .ms-banner-part-main-content .ms-banner-part-left-side h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  
+}
