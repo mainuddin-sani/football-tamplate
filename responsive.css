@@ -9,11 +9,6 @@
   .container {
     max-width: 960px;
   }
-  .ms-bars {
-    display: none;
-    color: #fff;
-    font-size: 20px;
-  }
 }
 /* medium device */
 @media (max-width: 991.98px) {

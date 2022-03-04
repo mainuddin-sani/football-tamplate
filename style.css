@@ -57,6 +57,11 @@ a {
 /* =================================
 header css
 ================================= */
+.ms-bars {
+  display: none;
+  color: #fff;
+  font-size: 20px;
+}
 .ms-header-main-part {
   margin-top: 42px;
   position: absolute;
